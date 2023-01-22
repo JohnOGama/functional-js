@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container-text {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(120, 36, 255);
+}
+.active.container-text {
+    filter:brightness(0.5);
+}
+
+
+.container-text h1 {
+    color: white;
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.container-text p {
+    color: white;
+    max-width: 960px;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+
+.container-text button {
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: .4s ease background;
+    max-width: 300px;
+}
+
+.container-text button:hover {
+    background: rgb(250, 18, 250);
+}
+
+.container-sign-in {
+    position: fixed;
+    height: 400px;
+    width: 400px;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 1;
+    transition: .5s opacity;
+}
+
+.active.container-sign-in {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.container-sign-in h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.container-sign-in input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+
+
+.container-sign-in .email {
+    margin-bottom: 10px;
+}
+
+.container-sign-in button {
+    margin-top: 15px;
+    background: white;
+    border: 1px solid grey;
+    padding: 7px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease background;
+}
+
+.container-sign-in button:hover {
+    background: rgb(250, 18, 250);
+}
+
+.close-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.close-icons {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.container-sign-up {
+    position: fixed;
+    height: 400px;
+    width: 400px;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 1;
+    transition: .5s opacity;
+}
+
+.container-sign-up .pass {
+    margin-bottom: 10px;
+    
+}
+
+.active.container-sign-up {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.container-sign-up h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.container-sign-up input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+
+
+.container-sign-up .email {
+    margin-bottom: 10px;
+}
+
+.container-sign-up button {
+    margin-top: 15px;
+    background: white;
+    border: 1px solid grey;
+    padding: 7px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease background;
+}
+
+.container-sign-up button:hover {
+    background: rgb(250, 18, 250);
+}
+
+
+
+
+
+
+
+
+
+
+
+
